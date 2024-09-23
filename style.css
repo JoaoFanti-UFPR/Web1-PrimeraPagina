@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(190deg, #bf11cb, #2575fc);
+    color: black;
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.geral{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(108, 108, 114);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    height: 560px;
+}
+
+.sobre h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.pessoal{
+    padding: 20px;
+    width: 600px;
+    border-radius: 15px;
+    transition-duration: 400ms;
+    display: flex;
+    margin-right: 20px;
+}
+
+.pessoal h3{
+    padding: 20px 0 5px 0;
+}
+
+.pessoal:hover, .profissional:hover{
+    background-color: rgb(38, 38, 40);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    color: white;
+}
+
+.sobre{
+    text-align: center;
+    padding-top: 10px;
+}
+
+img{
+    margin-top: 20px;
+}
+
+.info{
+    padding: 20px;
+}
+
+.profissional{
+    padding: 20px;
+    width: 600px;
+    margin-left: 20px;
+    border-radius: 15px;
+    transition-duration: 400ms;
+}
+
+.profissional h2{
+    text-align-last: center;
+}
+
+.profissional p{
+    padding: 5px 0 20px 0;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+section{
+    margin: 15px 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
